@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+
+nav { 
+    background-color: orange;
+    font-size: 30px;
+}
+
+hr {
+    border-style: double;
+    border-width: 10px;
+}
+
+body {
+    background-image: url(https://hbomax-images.warnermediacdn.com/images/GWUFN8AfNooudjgEAAABv/tile?size=1280x720&format=jpeg&partner=hbocom&v=f9a696f216baff0af72055d135505b58&host=art-gallery.api.hbo.com&w=1200);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 80%;
+    background-color: rgba(247, 200, 113, 0.907);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 900px;
+  }
+
+.photos {
+    padding-top: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: orange;
+}
